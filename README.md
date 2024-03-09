@@ -4,6 +4,13 @@ This repository contains a make file to generate shell completions for [Vagrant]
 
 It's a dependency of [dotfiles-notetiene](https://github.com/notetiene/dotfiles-notetiene).
 
+## Usage
+
+Simply execute:
+```bash
+make
+```
+
 ## License
 This project is licensed under the MIT license.
 
