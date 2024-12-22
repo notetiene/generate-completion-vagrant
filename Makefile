@@ -3,9 +3,9 @@
 
 OUTPUT_DIR = .
 BASH_DEBUG_PREFACE ?= "In vagrant bash completion setup"
-BASH_OUTPUT_FILENAME ?= bash-completion-setup.bash
+BASH_OUTPUT_FILENAME ?= vagrant-completion-setup.bash
 ZSH_DEBUG_PREFACE ?= "In vagrant zsh completion setup"
-ZSH_OUTPUT_FILENAME ?= zsh-completion-setup.zsh
+ZSH_OUTPUT_FILENAME ?= vagrant-completion-setup.zsh
 VAGRANT_VERSION := $(shell vagrant -v | sed -n -e 's/^[Vv]agrant \([0-9\.]*\)/\1/p')
 
 .PHONY : all
